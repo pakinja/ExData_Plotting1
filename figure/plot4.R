@@ -25,7 +25,4 @@ plot(x, as.numeric(data_sub$Sub_metering_3), type="l", ylab="Energy sub metering
 legend("topright", legend=c("Sub_metering_1", "Sub_metering_2","Sub_metering_3"),
        col=c("black","red", "blue"), lty=1, cex=0.8)
 
-
-
-
 plot(x, as.numeric(data_sub$Global_reactive_power), type = "l",xlab="datetime", ylab="Global_reactive_power" )
